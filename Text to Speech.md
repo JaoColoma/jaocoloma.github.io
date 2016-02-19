@@ -7,6 +7,8 @@ published: true
 
 The Text to Speech service processes and converts text to natural sounding speech. The input text can be of different languages and the output speech would be complete with correct intonation.
 
+Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pptx?raw=true)
+
 In this tutorial you will deploy a sample JSP application which uses the Text to Speech Service. 
 
 
