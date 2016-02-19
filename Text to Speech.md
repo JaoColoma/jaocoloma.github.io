@@ -8,24 +8,17 @@ published: true
 
 ##Text to Speech Tutorial
 
-###Text to Speech
 The Text to Speech service processes and converts text to natural sounding speech. The input text can be of different languages and the output would be complete with correct intonation.
 
 In this tutorial you will deploy a sample JSP application which uses the Text to Speech Service. 
 
->**Prerequisite:**
 
->Having a basic background in web application development is required in this tutorial.
-
-<br>
 
 ####Copy Sample Application
 You will download a copy of a sample application that you will deploy in your Bluemix account.
 
 
-1. Create the directory `bluemixtemp` in the root directory.  Create a subdirectory `myfirstapp` in `bluemixtemp`.
-
-1. Download [PostgreSQLUpload.war](https://github.com/ibmjstart/bluemix-java-postgresql-uploader/releases/download/v1.1/PostgreSQLUpload.war) and save it in the `myfirstapp` subdirectory.
+1. Download [t2s.war](https://github.com/JaoColoma/jaocoloma.github.io/blob/cb8814c95cd14e5d5e7afb5571801c9797b767df/t2s.war?raw=true).
 
 <br>
 
