@@ -77,7 +77,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 
 1. When asked to restage your application, click the `RESTAGE` button.  Wait for your application to restage.
 
-1. Open another browser tab (do not close the browser tab containing your Bluemix account).  Go to `http://t2s-<your_name>.mybluemix.net` to test if the sample application can already connect to the Speech to Text service.
+1. Open another browser tab (do not close the browser tab containing your Bluemix account).  Go to `http://t2s-<your_name>.mybluemix.net` to test if the sample application can already connect to the Text to Speech service.
 
 1. In the text box, type any word or sentence that you want to synthesize. (For this tutorial, we can only use English words and sentences, but the service can synthesize Brazilian Portuguese, English, French, German, Italian, Japanese, and Spanish)
 	
