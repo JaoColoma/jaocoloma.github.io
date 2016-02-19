@@ -5,9 +5,6 @@ permalink: /texttospeech/
 published: true
 ---
 
-
-##Text to Speech Tutorial
-
 The Text to Speech service processes and converts text to natural sounding speech. The input text can be of different languages and the output speech would be complete with correct intonation.
 
 In this tutorial you will deploy a sample JSP application which uses the Text to Speech Service. 
@@ -16,8 +13,10 @@ In this tutorial you will deploy a sample JSP application which uses the Text to
 ####Copy Sample Application
 You will download a copy of a sample application that you will deploy in your Bluemix account.
 
-1.Create a `t2s`directory in the Desktop
+1.Create a `t2s`directory in the Desktop.
+
 2. Download [t2s.war](https://github.com/JaoColoma/jaocoloma.github.io/blob/cb8814c95cd14e5d5e7afb5571801c9797b767df/t2s.war?raw=true).
+
 3. Move the war file to the `t2s directory.
 
 <br>
@@ -33,8 +32,10 @@ You will download a copy of a sample application that you will deploy in your Bl
 	```
 	
 	>When asked for a username (e-mail address) and password, enter the username and password of your Bluemix account.
-	-a to specify the API endpoint (https://api.ng.bluemix.net)
-	-s to specify space name (dev)
+	
+	>-a to specify the API endpoint (https://api.ng.bluemix.net).
+	
+	>-s to specify space name (dev).
 
 	<br>
 	
@@ -50,8 +51,10 @@ You will download a copy of a sample application that you will deploy in your Bl
 	> cf push t2s-coloma -m 256M -p t2s.war
 	```
 	-m to specify the memory to be allocated for the application being pushed (256M)
-	-p to specify the file to be uploaded (blaze.war)
-	<your-name> is for you to have a unique bluemix url
+	
+	-p to specify the file to be uploaded (t2s.war)
+	
+	-<your-name> is for you to have a unique bluemix url
 
 	<br>
 	
@@ -76,10 +79,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 
 1. Open another browser tab (do not close the browser tab containing your Bluemix account).  Go to `http://t2s-<your_name>.mybluemix.net` to test if the sample application can already connect to the Speech to Text service.
 
-	<br>
-
 1. In the text box, type any word or sentence that you want to synthesize. (For this tutorial, we can only use English words and sentences, but the service can synthesize Brazilian Portuguese, English, French, German, Italian, Japanese, and Spanish)
-
 	
 1. Click the `Submit` button.  
 2. After clicking the submit button, a file will be downloaded automatically.
@@ -93,7 +93,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 The code shownbelow is the source code found in the Text to Speech Servlet:
 
 
-	```text
+	```
 		// Part 1
 			TexttoSpeechConnector connector = new TexttoSpeechConnector();      
   			TextToSpeech service = new TextToSpeech();
@@ -126,7 +126,7 @@ The code shownbelow is the source code found in the Text to Speech Servlet:
 	Part 2 shows the input to output process. In the first part, the text is retrieved from the index.jsp and the format is set to a 		wav file. After which, it is passed to the service with the use of the service.synthesize method. The parameters needed 			are the text and the file format, which are both strings. It returns an InputStream.
 	Part 3 shows the download process. An OutputStream is created and the InputStream is written there. The OutputStream is then 				flushed in order for the file to be downloaded.
 
-####Analyze how the Text to Speech Application works
+####Delete the sample application for housekeeping
 
 1. Go to Bluemix.
 2. Click Dashboard.
