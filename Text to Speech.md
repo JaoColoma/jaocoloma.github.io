@@ -13,11 +13,11 @@ In this tutorial you will deploy a sample JSP application which uses the Text to
 ####Copy Sample Application
 You will download a copy of a sample application that you will deploy in your Bluemix account.
 
-1.Create a `t2s`directory in the Desktop.
+1.Create a `t2s` directory in the Desktop.
 
 2.Download [t2s.war](https://github.com/JaoColoma/jaocoloma.github.io/blob/cb8814c95cd14e5d5e7afb5571801c9797b767df/t2s.war?raw=true).
 
-3.Move the war file to the `t2s directory.
+3.Move the war file to the `t2s` directory.
 
 <br>
 
