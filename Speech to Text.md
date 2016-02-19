@@ -7,6 +7,8 @@ published: true
 
 The Speech to Text service processes and converts human voice to text form.
 
+Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pptx?raw=true)
+
 In this tutorial you will deploy a sample JSP application which uses the Speech to Text Service. 
 
 
