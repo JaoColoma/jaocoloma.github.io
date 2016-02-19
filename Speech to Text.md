@@ -15,7 +15,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 
 1.Create a `s2t` directory in the Desktop.
 
-2.Download [t2s.war](https://github.com/JaoColoma/jaocoloma.github.io/blob/cb8814c95cd14e5d5e7afb5571801c9797b767df/t2s.war?raw=true).
+2.Download [s2t.war](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/s2t.war?raw=true).
 
 3.Move the war file to the `s2t` directory.
 
