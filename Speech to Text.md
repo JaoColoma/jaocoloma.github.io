@@ -136,7 +136,7 @@ The code shownbelow is the source code found in the Speech to Text Servlet:
 	Part 2 shows the connection to the service. The credentials are obtained and are passed to the service.
 	Part 3 since the retrieval of the file returns an InputStream, it is converted to a file because this is the needed parameter.
 	Part 4 values are set for the SpeechToText input using a hashmap.
-	Part 5 the hashmap is passed to the service.recognize method, which is the method that converts the input file to text. The 				method then returns a SpeechResult and that result is converted in to a string using the toString() function. 				After that, it is shown on the screen.
+	Part 5 the hashmap is passed to the service.recognize method, which is the method that converts the input file to text. The method then returns a SpeechResult and that result is converted into a string using the toString() function. After that, it is shown on the screen.
 
 ####Delete the sample application for housekeeping
 
