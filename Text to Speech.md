@@ -8,10 +8,9 @@ published: true
 
 ##Text to Speech Tutorial
 
-The Text to Speech service processes and converts text to natural sounding speech. The input text can be of different languages and the output would be complete with correct intonation.
+The Text to Speech service processes and converts text to natural sounding speech. The input text can be of different languages and the output speech would be complete with correct intonation.
 
 In this tutorial you will deploy a sample JSP application which uses the Text to Speech Service. 
-
 
 
 ####Copy Sample Application
@@ -26,6 +25,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 ####Deploy Sample Application in Bluemix using the `cf` tool.
 
 1. Open a terminal window and go to the `myfirstapp` subdirectory.
+2. hello
 
 1. Login to your Bluemix account using the `cf` tool.
 
