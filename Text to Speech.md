@@ -125,7 +125,7 @@ The code shownbelow is the source code found in the Text to Speech Servlet:
 				os.close();  
 	```
 	Part 1 shows the connection to the service. The credentials are obtained and are passed to the service.
-	Part 2 shows the input to output process. In the first part, the text is retrieved from the index.jsp and the format is set to a 		wav file. After which, it is passed to the service with the use of the service.synthesize method. The parameters needed 			are the text and the file format, which are both strings. It returns an InputStream.
+	Part 2 shows the input to output process. In the first part, the text is retrieved from the index.jsp and the format is set to a wav file. After which, it is passed to the service with the use of the service.synthesize method. The parameters needed are the text and the file format, which are both strings. It returns an InputStream.
 	Part 3 shows the download process. An OutputStream is created and the InputStream is written there. The OutputStream is then 				flushed in order for the file to be downloaded.
 
 ####Delete the sample application for housekeeping
