@@ -146,7 +146,7 @@ The code shownbelow is the source code found in the Speech to Text Servlet:
 
 1. Go to Bluemix.
 2. Click Dashboard.
-3. From the Applications List, click the gear icon of the created application.
+3. From the Applications List, click the gear icon of the created application. In the Services tab, make sure that the Text to Speech service is selected. In the Routes tab, make sure that the route (i.e., URL) is selected.
 4. Choose Delete App.
 
 <br>
