@@ -132,6 +132,8 @@ The code shownbelow is the source code found in the Text to Speech Servlet:
 	Part 2 shows the input to output process. In the first part, the text is retrieved from the index.jsp and the format is set to a wav file. After which, it is passed to the service with the use of the service.synthesize method. The parameters needed are the text and the file format, which are both strings. The method returns an InputStream. The synthesize method can be used using the "import com.ibm.watson.developer_cloud.text_to_speech.v1.TextToSpeech;" import.
 	
 	Part 3 shows the download process. An OutputStream is created and the InputStream is written there. The OutputStream is then flushed in order for the file to be downloaded.
+	
+	Note: It is important to remember that the service can output ogg, flac, and wav files. The one shown above uses a wav file as the output. In order to make use of the application for other file types the "format" string must be adjusted accordingly.
 
 ####Delete the sample application for housekeeping
 
