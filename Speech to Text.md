@@ -83,7 +83,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 
 1. Open another browser tab (do not close the browser tab containing your Bluemix account).  Go to `http://s2t-<your_name>.mybluemix.net` to test if the sample application can already connect to the Speech to Text service.
 
-1. Choose the file that you want to upload.
+1. Choose the file that you want to upload. Download sample file [here] (https://github.com/JaoColoma/jaocoloma.github.io/blob/master/Sample1.wav?raw=true)
 	
 1. Click the `Upload` button.  
 2. After clicking the upload button, the output text will be shown.
