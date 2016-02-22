@@ -95,7 +95,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 The code shownbelow is the source code found in the Speech to Text Servlet:
 
 
-	```text
+	```
 	//Part 1
       	 SpeechtoTextConnector connector = new SpeechtoTextConnector();
          SpeechToText service = new SpeechToText();
