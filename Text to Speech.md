@@ -9,6 +9,8 @@ The Text to Speech service processes and converts text to natural sounding speec
 
 Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pptx?raw=true)
 
+Download Text to Speech Files [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/t2s.zip?raw=true)
+
 In this tutorial you will deploy a sample JSP application which uses the Text to Speech Service. 
 
 
