@@ -95,52 +95,55 @@ You will download a copy of a sample application that you will deploy in your Bl
 The code shownbelow is the source code found in the Speech to Text Servlet:
 
 
-	```
+	```text
 	//Part 1
-	   if(ServletFileUpload.isMultipartContent(request)){
+      	 SpeechtoTextConnector connector = new SpeechtoTextConnector();
+         SpeechToText service = new SpeechToText();
+         service.setUsernameAndPassword(connector.getUsername(),connector.getPassword());
+         //Part 2
+       if(ServletFileUpload.isMultipartContent(request)){
             try {
-                List<FileItem> multiparts = new ServletFileUpload(
-                                         new DiskFileItemFactory()).parseRequest(request);
-              
+                List<FileItem> multiparts = new ServletFileUpload(new DiskFileItemFactory()).parseRequest(request);
                 for(FileItem item : multiparts){
                     if(!item.isFormField()){
-                       
-                       // Part 2 
-                        SpeechtoTextConnector connector = new SpeechtoTextConnector();
-                        SpeechToText service = new SpeechToText();
-                        service.setUsernameAndPassword(connector.getUsername(),connector.getPassword());
-                        
-                        // Part 3
+                        //Part 3
                         InputStream in = item.getInputStream();
                         String PREFIX = "temporary";
                         String SUFFIX = ".wav";
 
                         File tempFile = File.createTempFile(PREFIX, SUFFIX);
-
                         FileOutputStream out = new FileOutputStream(tempFile);
                         IOUtils.copy(in, out);
-        				// Part 4	
-					 Map<String, Object> params = new HashMap<String, Object>() ;
-     
-					params.put("SpeechToText.AUDIO", tempFile);
-					params.put("SpeechToText.CONTENT_TYPE", "audio/wav");
-					params.put("SpeechToText.CONTINUOUS", "true");
-					params.put("SpeechToText.WORD_CONFIDENCE", "");
-					params.put("SpeechToText.MAX_ALTERNATIVES", "2");
-					params.put("SpeechToText.CONTINUOUS", "true");
-					params.put("SpeechToText.TIMESTAMPS", "true");
-					params.put("SpeechToText.INACTIVITY_TIMEOUT", "-1");
-
-		   // Part 5
-                    SpeechResults transcript = service.recognize(params);
-                    String type = transcript.toString();       
-                	request.setAttribute("message", type);
+        
+                        File audio = tempFile;
+                        
+                        //Part 4
+                        SpeechResults output = service.recognize(audio, "audio/wav");
+                        String print = output.toString();
+                        
+                        request.setAttribute("message", print);     
+    
+                    }
+                }
+           
+            } catch (Exception ex) {
+               request.setAttribute("message", "File Upload Failed due to " + ex);
+            }       
+         
+        }else{
+            request.setAttribute("message",
+                                 "Sorry this Servlet only handles file upload request");
+        }
+    
+        request.getRequestDispatcher("/result.jsp").forward(request, response);
 	```
-	Part 1 shows the retrieval of the file that was chosen.
-	Part 2 shows the connection to the service. The credentials are obtained and are passed to the service.
-	Part 3 since the retrieval of the file returns an InputStream, it is converted to a file because this is the needed parameter.
-	Part 4 values are set for the SpeechToText input using a hashmap.
-	Part 5 the hashmap is passed to the service.recognize method, which is the method that converts the input file to text. The method then returns a SpeechResult and that result is converted into a string using the toString() function. After that, it is shown on the screen.
+
+	Part 1 shows the connection to the service. The credentials are obtained and are passed to the service.
+	Part 2 shows the retrieval of the file that was uploaded.
+	Part 3 since the retrieval of the file returns an InputStream, it is converted to a file because this is the needed parameter. It makes use of the IOUtils which uses the "import org.apache.commons.io.IOUtils;" import.
+	Part 4 the file is passed to the service.recognize method, which is the method that converts the input file to text. The method then returns a SpeechResult and that result is converted into a string using the toString() function. After that, it is printed on the screen. 
+	
+	Note: It is important to remember that the service can receive flac files, l16 files , wav files, ogg files, and microphone input. The parameters that were set here in the sample application receives only a wav file. In order to make use of the application for other file types, the SUFFIX string and the second parameter of the recognize method must me adjusted accordingly.
 
 ####Delete the sample application for housekeeping
 
