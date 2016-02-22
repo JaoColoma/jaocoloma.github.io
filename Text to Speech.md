@@ -85,7 +85,7 @@ You will download a copy of a sample application that you will deploy in your Bl
 	
 1. Click the `Submit` button.  
 2. After clicking the submit button, a file will be downloaded automatically.
-3. Locate the downloaded file and rename it and append a `.wav` at the end of the file name.
+3. Locate the downloaded file and rename it. Append a `.wav` at the end of the file name.
 4. Play the wav file using any audio player.
 
 	<br>
