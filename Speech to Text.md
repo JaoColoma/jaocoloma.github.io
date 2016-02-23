@@ -91,7 +91,9 @@ You will download a copy of a sample application that you will deploy in your Bl
 	```text
 	Sample Output:
 	
-		com.ibm.watson.developer_cloud.speech_to_text.v1.model.SpeechResults { "results": [ { "alternatives": [ { "transcript": 			"what is the best way to prevent does not attack " } ], "final": true } ], "result_index": 0 }
+		com.ibm.watson.developer_cloud.speech_to_text.v1.model.SpeechResults { "results": [ { "alternatives": [ { "transcript": 
+		
+		"what is the best way to prevent does not attack " } ], "final": true } ], "result_index": 0 }
 	```
 
 	<br>
