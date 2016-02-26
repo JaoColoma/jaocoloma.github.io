@@ -7,7 +7,7 @@ published: true
 
 The Speech to Text service processes and converts human voice to text form.
 
-Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pptx?raw=true)
+Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pdf?raw=true)
 
 Download Speech to Text Files [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/s2t.zip?raw=true)
 
