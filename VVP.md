@@ -15,6 +15,11 @@ Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.g
 
 #### Clone a copy of the sample program
 1.Clone this repository: [VVP](https://github.com/JaoColoma/albacol.git).
+
+	```text
+	> git clone https://github.com/JaoColoma/albacol.git
+	```
+
 <br>
 
 #### Create a Twilio account
