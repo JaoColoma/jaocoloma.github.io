@@ -98,32 +98,31 @@ Before you are able to send text messages through the app, there are some things
 
 1. Look for the `SQL Database` service and click it.
 
-1. In the `Service name` text box, type `vvp - <your-name>`.
+1. In the `Service name` text box, type `sqlDB - <your-name>`.
 
 1. Click the `CREATE` button.
 
-1. When asked to restage your application, click the `RESTAGE` button.  Wait for your application to restage.
+1. When asked to restage your application, click the `Cancel` button. 
 
-1. Open another browser tab (do not close the browser tab containing your Bluemix account).  Go to `http://s2t-<your_name>.mybluemix.net` to test if the sample application can already connect to the Speech to Text service.
+2. Click the 'Overview' option on the menu on the left. This will bring you back the Overview Page of your application.
 
-1. Choose the file that you want to upload. Download sample file [here] (https://github.com/JaoColoma/jaocoloma.github.io/blob/master/Sample1.wav?raw=true) (Right click then save as)
-	
-1. Click the `Upload` button.  
-2. After clicking the upload button, the output text will be shown.
+1. Click the `ADD A SERVICE OR API` link.  You will again be redirected to the `Catalog` page. 
 
-	```text
-	Sample Output:
-	
-		com.ibm.watson.developer_cloud.speech_to_text.v1.model.SpeechResults { "results": [ { "alternatives": [ { "transcript": 
-		
-		"what is the best way to prevent does not attack " } ], "final": true } ], "result_index": 0 }
-	```
+1. Look for the `Twilio` service and click it.
 
-	<br>
+1. In the `Service name` text box, type `twilio - <your-name>`.
+
+1. Enter the Accound SID and Authentication Token in their respective fields. Check [here](https://www.twilio.com/user/account)
+
+1. When asked to restage your application, click the `Restage` button. Wait for you application to restage.
+
+1. Once done, you can now access your application. Enter "http://hackathon-<your-name>.mybluemix.net/Homepage.jsp".
+
 
 #### Note:
 
-1. Before going to the homepage of the application, you must first register a voter. This can be done by accessing the CreateAccount page.
+1. Before using the application, you must first register a voter. This can be done by accessing the CreateAccount page. You can access it
+using "http://hackathon-<your-name>.mybluemix.net/CreateAccount.jsp"
 
 2. The Numbers that are to be used for registering must first be verified [here](https://www.twilio.com/user/account/phone-numbers/verified) by clicking `Verify a Number`.
 
