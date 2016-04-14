@@ -14,7 +14,7 @@ of the candidates that they voted for.
 Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pdf?raw=true)
 
 #### Clone a copy of the sample program
-1.Clone this repository on your computer using git: [VVP](https://github.com/JaoColoma/albacol.git).
+1.Clone this repository on your computer using git: [VVS](https://github.com/JaoColoma/albacol.git).
 
 
 <br>
