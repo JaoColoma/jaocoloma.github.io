@@ -36,7 +36,7 @@ Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.g
 6. You will be redirected to a page with a textbox. Once you receive the verification code in your phone, enter it in the text box and proceed.
 
 8. On the current page, click `Get your first Twilio Number` and click `Choose this number`. Take note of your new number and click `Done`. For Testing purposes, you must change the sender number in
-the TwilioServlet File found in the directory of the cloned repository (albacol/src/main/java/net/tutorial/Servlet/TwilioServlet.java) in the line “params.put(“From”, “<your twilio number>”)”. Ideally this is not 
+the TwilioServlet File found in the directory of the cloned repository (albacol/src/main/java/net/tutorial/Servlet/TwilioServlet.java) in the line “params.put(“From”, “insert your twilio number”)”. Ideally this is not 
 changed because the COMELEC’s number will be placed in this area.
 
 9.  In order for the Twilio service in Bluemix to work, it requires your Twilio account's `Auth Token` and `Account SID` both which can be found [here](https://www.twilio.com/user/account) by clicking `Show API Credentials`. Take note of both of these credentials, you will be using this when binding Twilio to your Bluemix app.
