@@ -116,13 +116,13 @@ Before you are able to send text messages through the app, there are some things
 
 1. When asked to restage your application, click the `Restage` button. Wait for you application to restage.
 
-1. Once done, you can now access your application. Enter 'http://hackathon-<your-name>.mybluemix.net/Homepage.jsp'.
+1. Once done, you can now access your application. Enter http://hackathon-your-name.mybluemix.net/Homepage.jsp.
 
 
 #### Note:
 
 1. Before using the application, you must first register a voter. This can be done by accessing the CreateAccount page. You can access it
-using 'http://hackathon-<your-name>.mybluemix.net/CreateAccount.jsp'
+using http://hackathon-your-name.mybluemix.net/CreateAccount.jsp.
 
 2. The Numbers that are to be used for registering must first be verified [here](https://www.twilio.com/user/account/phone-numbers/verified) by clicking `Verify a Number`.
 
