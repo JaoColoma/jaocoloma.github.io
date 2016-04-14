@@ -98,7 +98,7 @@ Before you are able to send text messages through the app, there are some things
 
 1. Look for the `SQL Database` service and click it.
 
-1. In the `Service name` text box, type `sqlDB - <your-name>`.
+1. In the `Service name` text box, type `sqlDB-<your-name>`.
 
 1. Click the `CREATE` button.
 
@@ -110,9 +110,9 @@ Before you are able to send text messages through the app, there are some things
 
 1. Look for the `Twilio` service and click it.
 
-1. In the `Service name` text box, type `twilio - <your-name>`.
+1. In the `Service name` text box, type `twilio-<your-name>`.
 
-1. Enter the Accound SID and Authentication Token in their respective fields. Check [here](https://www.twilio.com/user/account)
+1. Enter the Accound SID and Authentication Token in their respective fields. Check credentials [here](https://www.twilio.com/user/account)
 
 1. When asked to restage your application, click the `Restage` button. Wait for you application to restage.
 
