@@ -6,8 +6,7 @@ published: true
 ---
 
 The Voters Verification Program is a program that is used during elections, specifically during the voting period. Its main goal is to 
-verify the votes casted by the voter. This verification is done by sending a text message to the voter. The text message which contains 
-the list of candidates that the voter voted. The target users of this program are the COMELEC and the voters. This will help the COMELEC
+verify the votes casted by the voters. This verification is done by sending a text message to the voter, which contains the list of candidates that they voted. The target users of this program are the COMELEC and the voters. This will help the COMELEC
 with the voting verification process. This can be used a long side with the printing of the voting receipt or it could also be used as an
 alternative. Voters will also be more confident about the votes that they casted because they will be able to verify it and keep a record
 of the candidates that they voted for.
