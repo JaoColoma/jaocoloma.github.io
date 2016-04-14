@@ -11,7 +11,7 @@ with the voting verification process. This can be used a long side with the prin
 alternative. Voters will also be more confident about the votes that they casted because they will be able to verify it and keep a record
 of the candidates that they voted for.
 
-Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/presentation.pdf?raw=true)
+Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/VVS.pptx?raw=true)
 
 #### Clone a copy of the sample program
 1.Clone this repository on your computer using git: [VVS](https://github.com/JaoColoma/albacol.git).
