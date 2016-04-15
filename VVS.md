@@ -84,7 +84,6 @@ Before you are able to send text messages through the app, there are some things
 	
 	-p to specify the file to be uploaded (myapp.war)
 	
-	-<your-name> is for you to have a unique bluemix url
 
 	<br>
 	
