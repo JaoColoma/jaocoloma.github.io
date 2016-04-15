@@ -9,7 +9,7 @@ The Voters Verification System is a system that is used during elections. Specif
 verify the votes casted by the voters. This verification is done by sending a text message to the voter, which contains the list of candidates that they voted. The target users of this program are the COMELEC and the voters. This will help the COMELEC
 with the voting verification process. This can be used a long side with the printing of the voting receipt or it could also be used as an
 alternative. Voters will also be more confident about the votes that they casted because they will be able to verify it and keep a record
-of the candidates that they voted for.
+of the candidates that they voted for. This system will also help in cutting down the cost and time spent during the elections.
 
 Download Powerpoint Presentation [here](https://github.com/JaoColoma/jaocoloma.github.io/blob/master/VVS.pptx?raw=true)
 
